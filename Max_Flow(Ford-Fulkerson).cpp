@@ -1,4 +1,4 @@
-//—LŒüƒOƒ‰ƒt
+//directed graph
 struct Flow{
 	struct edge {int to, cap, rev; };
 	vector<vector<edge>> G;

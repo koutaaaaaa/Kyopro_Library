@@ -41,8 +41,8 @@ int main(){
         for(int i = 0; i < 4; i++){
             int nxt = v[i];
             if(nxt < 0 || nxt >= n*n)continue;
-            if(nxt % n == 0 && now % n == n-1)continue;
-            if(nxt % n == n-1 && now % n == 0)continue;
+            if(nxt % n == 0 && now % n == n-1 && n != 2)continue;
+            if(nxt % n == n-1 && now % n == 0 && n != 2)continue;
             int nxtbit = bit ^ (1<<nxt);
             if(dist[nxtbit][nxt] == 114514810){
                 dist[nxtbit][nxt] = dist[bit][now] + 1;

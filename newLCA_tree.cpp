@@ -1,4 +1,3 @@
-//g‚Ívvl
 struct LCA_tree{
 public:
 	ll len;

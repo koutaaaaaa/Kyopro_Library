@@ -1,4 +1,4 @@
-//—LŒüƒOƒ‰ƒt
+//â€”LÅ’Ã¼Æ’OÆ’â€°Æ’t
 struct Flow{
 	struct edge {int to, cap, rev; };
 	vector<vector<edge>> G;

@@ -67,7 +67,7 @@ struct S{
 S get(S a  , S b){
 }
 
-S e(){//PĘłđÔˇ
+S e(){
     return S{};
 }
 

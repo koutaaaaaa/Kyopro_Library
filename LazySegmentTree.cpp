@@ -61,27 +61,31 @@ struct LazySegmentTree{
     }
 };
 
-struct S{
+struct S{//セグ木に乗せるモノイド
 };
 
+//取得する関数
+//al*a1(l+1)...a(r-1)*a(r) の * 
 S get(S a  , S b){
 }
 
-S e(){
+S e(){//単位元
     return S{};
 }
 
-struct F{
+struct F{//更新する関数
 };
 
-S update(F f , S x){
+S update(F f , S x){//f(x)
     return S{};
 }
 
-F composition(F a , F b){
+//関数の合成
+//g(f(x))
+F composition(F f , F g){
     return F{};
 }
 
-F id(){
+F id(){//恒等写像
     return F{};
 }

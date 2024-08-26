@@ -26,4 +26,5 @@ class BIT
             return ret2 - ret1;
         }
     };
+//changed
     
